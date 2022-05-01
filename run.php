@@ -131,7 +131,7 @@ for ($ia=0; $ia < $jumlah; $ia++) {
                                 echo PHP_EOL.'[ '.date('H:i:s').' ] OTP: '.$otpBos1.PHP_EOL;
                                 $curl = new Curl();
                                 $curl->setHeader('versionCode', '12');
-                                $curl->setHeader('versionName', '1.0.4');
+                                $curl->setHeader('versionName', '1.0.6');
                                 $curl->setHeader('countryId', '1');
                                 $curl->setHeader('languageId', '123');
                                 $curl->setHeader('deviceType', '4');
