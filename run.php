@@ -99,7 +99,7 @@ for ($ia=0; $ia < $jumlah; $ia++) {
                         echo '[ '.date('H:i:s').' ] Mencoba login dengan Nomor '.$nomorHP;
                         $curl = new Curl();
                         $curl->setHeader('versionCode', '12');
-                        $curl->setHeader('versionName', '1.0.4');
+                        $curl->setHeader('versionName', '1.0.6');
                         $curl->setHeader('countryId', '1');
                         $curl->setHeader('languageId', '123');
                         $curl->setHeader('deviceType', '4');
